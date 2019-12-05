@@ -1,1 +1,44 @@
+header {
+    text-align: center;
+    align-content: center;
+    padding-top: 0.25in;
+}
 
+hr {
+    color: #003660;
+    margin: 0;
+    max-width: 95%;
+    margin-left: auto !important;
+    margin-right: auto !important;
+
+}
+
+#vitae-label {
+    color: #003660;
+}
+
+#vitae-label div {
+    display: inline-block;
+    padding: 10px 20px;
+    margin: 0;
+}
+
+#vitae-label i {
+    align-content: center;
+    font-size: 14pt;
+}
+
+#vitae-text {
+    font: 18px "Linux Libertine", serif;
+    font-weight: 200;
+    font-kerning: normal;
+    letter-spacing: 1pt;
+    text-transform: uppercase;
+}
+
+#header-name {
+    padding: 10px 0px;
+    font: 32px "Quicksand", serif;
+    /* font-variant: small-caps; */
+    font-weight: 300;
+}

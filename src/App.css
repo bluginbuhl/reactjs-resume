@@ -1,1 +1,14 @@
+*{
+    margin: 0;
+}
 
+#root{
+    background-color: #dce1e5;
+}
+
+.page{
+    width: 8.5in;
+    margin: auto;
+    border: 1px solid black;
+    background-color: white;
+}
