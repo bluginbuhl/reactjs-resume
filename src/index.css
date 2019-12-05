@@ -10,7 +10,6 @@ hr {
     max-width: 95%;
     margin-left: auto !important;
     margin-right: auto !important;
-
 }
 
 #vitae-label {
@@ -38,7 +37,28 @@ hr {
 
 #header-name {
     padding: 10px 0px;
-    font: 32px "Quicksand", serif;
+    font: 32px "Vollkorn", serif;
     /* font-variant: small-caps; */
     font-weight: 300;
+}
+
+#contact-info {
+    font: 14px "Noto Sans", sans-serif;
+    text-align: center;
+    padding: 10px 0px;
+}
+
+#contact-info div {
+    display: inline-block;
+}
+
+#contact-info i {
+    padding: 0px 10px;
+}
+
+.contact-item {
+    align-content: center;
+    padding-right: 10px;
+    border-right: 1px solid #003660;
+    border-left: 1px solid #003660;
 }
