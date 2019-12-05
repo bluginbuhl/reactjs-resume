@@ -10,7 +10,6 @@ class Header extends Component {
                 <div id="vitae-text">Curriculum Vitae</div>
                 <div><i className="fa fa-angle-double-left"></i></div>
             </span>
-            <hr />
             <div id="header-name">John Quincy Adams</div>
             <hr />
             <div id="contact-info">
