@@ -1,5 +1,6 @@
 *{
     margin: 0;
+    /* border: 1px dashed red; */
 }
 
 #root{
@@ -9,6 +10,7 @@
 .page{
     width: 8.5in;
     margin: auto;
+    padding: .25in .25in; 
     border: 1px solid black;
     background-color: white;
 }

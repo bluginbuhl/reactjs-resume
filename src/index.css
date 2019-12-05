@@ -1,13 +1,18 @@
+h3 {
+    text-transform: uppercase;
+    font: 14px "Noto Sans", sans-serif;
+    font-weight: bold;
+    padding: 5px 0px;
+}
+
 header {
     text-align: center;
     align-content: center;
-    padding-top: 0.25in;
 }
 
 hr {
     color: #003660;
     margin: 0;
-    max-width: 95%;
     margin-left: auto !important;
     margin-right: auto !important;
 }
@@ -59,8 +64,12 @@ hr {
 .contact-item {
     align-content: center;
     padding-right: 10px;
-    border-right: 1px solid #003660;
+    color: #003660;
+}
+
+.contact-item:nth-child(2) {
     border-left: 1px solid #003660;
+    border-right: 1px solid #003660;
 }
 
 /* About Section */
@@ -69,7 +78,6 @@ hr {
     padding: 20px 0px;
     margin-left: auto !important;
     margin-right: auto !important;
-    max-width: 95%;
     text-align: justify;
     font: 12px "Noto Sans", sans-serif;
 }
